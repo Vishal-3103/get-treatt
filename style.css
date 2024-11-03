@@ -1,0 +1,77 @@
+body {
+    
+    background-image: url('assets/backround.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.one {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    padding: 10px 20px;
+    background-color: #cfcfcf;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+
+.two {
+    position: absolute;
+    top: 10px;
+    right: 120px;
+    padding: 10px 20px;
+    background-color: #cfcfcf;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+
+.profile {
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    padding: 8px 20px;
+    background-color: #000000;
+    color: white;
+    transition: all 0.3s ease;
+    font-size: 16px;
+
+}
+
+.logout {
+    position: absolute;
+    top: 13.5px;
+    right: 10px;
+    padding: 6px 10px;
+    background-color: #000000;
+    color: white;
+    transition: all 0.3s ease;
+
+}
+.one:hover, .two:hover, .profile:hover, .logout:hover {
+    background-color: #dacaca; 
+    transform: translateY(2px);
+}
+.icon {
+    position: relative;
+    top: 10px;
+    left: 30px;
+    width: 50px;
+    transition: transform 0.3s ease;
+}
+
+.icon:hover {
+    transform: rotate(20deg) scale(1.1); 
+    cursor: pointer;
+}

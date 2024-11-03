@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET TREAT - Sign Up</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="icon" type="image/png" href="assets/favicon.png" sizes="16x16">
+</head>
+<body>
+<div class="container">
+    <div class="sidebar">
+        <img class="loginimg" src="assets/birdlogin.webp" alt="">
+    </div>
+
+    <div class="home">
+        <section id="signup-page">
+            <div class="signuphead">GET TREAT
+            </div>
+            <div class="registerr">New here? SignUp First!!</div>   
+            <form id="signupForm">
+                <div class="form-group">
+                    <label for="email"><span class="loginLabel"></span></label>
+                    <input type="email" id="signupEmail" name="email" placeholder="username@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="password"><span class="loginLabel"></span></label>
+                    <input type="password" id="signupPassword" name="password" placeholder="Password" required>
+                </div>
+                <div id="submit-button">
+                    <button class="btn btn-secondary" type="submit">Sign Up</button>
+                </div>
+                <div class="dologin">Already have an account? <a href="login.html" class="login">Log In</a></div>
+            </form>
+        </section>
+    </div>
+</div>
+<script src="signup.js"></script>
+</body>
+</html>
